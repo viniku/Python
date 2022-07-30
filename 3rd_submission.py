@@ -1,0 +1,6 @@
+Ans = input("Enter the amount of the study benefits: ")
+p = float(Ans)
+study_benefit = (p * (1.17/100) + p)
+print("If the index raise is 1.17 percent, the study benefit,\nafter a raise, would be", study_benefit,"euros")
+study_benefit_final = (study_benefit * (1.17/100) + study_benefit)
+print("and if there was another index raise, the study \nbenefits would be as much as", study_benefit_final, "euros")
